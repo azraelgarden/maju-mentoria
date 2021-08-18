@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T18:01:31.266Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="kxUO5sJtPo2P_zphUCuS" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T19:33:55.629Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="s6y2Kjf2dbFXuODHWg2G" version="14.9.7" type="github">
   <diagram id="agUBH981tSHvttuCAfrt" name="Page-1">
     <mxGraphModel dx="981" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
         <mxCell id="hISglGd7XBu-Tsz0KGXN-1" value="GIT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="230" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hISglGd7XBu-Tsz0KGXN-3" value="Karma/Angular/Convetional" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hISglGd7XBu-Tsz0KGXN-3" value="Karma/Angular/Convetional&lt;br&gt;Commitzen&lt;br&gt;Commitlint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="350" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
