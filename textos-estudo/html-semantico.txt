@@ -1,0 +1,18 @@
+1 ano como programadora! Aprendi muito, desenvolvi projetos de diferentes complexidades, 
+mas e a base dos conhecimentos de programação?
+
+Bom, para quem também está migrando para essa área e não tem condições de fazer uma graduação 
+(seja pelo motivo que for) o caminho são cursos online. Eu comecei minha trajetória com a 
+Rocketseat participando de algumas Next Level Week e  do Launchbase (não existe mais, hoje 
+sugiro o Discovery), e recomendo para todes. Mas só isso basta? 
+
+Nós podemos fazer vários cursos, ver vídeos, e ler livros, mas se a base não estiver sólida, 
+avançar em programação se torna desafiador. Com os conceitos fundamentais firmes, aprender uma 
+nova linguagem ou a trabalhar com um novo framework se torna mais simples, e muitos cursos não 
+nos ensinam esses conteúdos de forma tão profunda e técnica como precisamos. Hoje, trabalhando 
+no GRUPO SBF, tenho a oportunidade de ter um mentor, Azrael Garden, que está me dando suporte 
+na minha solidificação de bases!  
+
+E um dos produtos dessa mentoria, é esse artigo! O primeiro de uma série de conceitos de 
+programação (e alguns projetos), que vou escrever a partir do que estudo, um resumo! Então 
+vamos ao que interessa, dentro do primeiro pilar, que é  HTML, vamos falar sobre semântica!
