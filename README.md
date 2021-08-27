@@ -1,7 +1,19 @@
-# Mentoria Maju
+<h2> Mentoria da Maju </h2>
 
-Esse repositório tem como objetivo documentar os conteúdos da mentoria.
+Esse repositório tem como objetivo documentar os conteúdos da mentoria aplicada por [Azrael Garden](https://www.linkedin.com/in/azrael-garden/) para [Maria Julia Lobo](https://www.linkedin.com/in/mariajulialobo/).
 
-## Referências
+Abaixo, você encontra o roadmap que está sendo usado como referência de estudos, que foi construído baseado nos interesses e objetivos da desenvolvedora. Para fixar o conteúdo, a Maria Julia produzirá textos e projetos que podem ser encontrados nas pastas do repositório.
 
+<h2> Referências </h2>
+<h3> Controle de estudos </h3>
 - Board Kanbanize: https://gruposbf.kanbanize.com/ctrl_board/48
+
+<h3> Livros </h3>
+- Clean Architecture: A Craftsman's Guide to Software Structure - Robert Cecil Martin
+
+<h3> Roadmap </h3>
+<img src= "https://user-images.githubusercontent.com/65983895/131180158-ee717f6d-0b52-4e33-a317-8d4175af4eef.png"/>
+
+
+
+
