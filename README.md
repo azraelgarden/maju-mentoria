@@ -12,7 +12,7 @@ Abaixo, você encontra o roadmap que está sendo usado como referência de estud
 - Clean Architecture: A Craftsman's Guide to Software Structure - Robert Cecil Martin
 
 <h3> Roadmap </h3>
-<img src= "https://user-images.githubusercontent.com/65983895/131180158-ee717f6d-0b52-4e33-a317-8d4175af4eef.png"/>
+<img src= "https://user-images.githubusercontent.com/65983895/134061890-f77f027c-7db1-45bc-bac0-aab1104355ce.png"/>
 
 
 
