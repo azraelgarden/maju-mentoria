@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T18:07:35.219Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="dRHmUeMy4jovs1zqlELN" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:24:41.396Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="y4_veqCue9l53V6ZY66y" version="15.3.5" type="github">
   <diagram id="agUBH981tSHvttuCAfrt" name="Page-1">
-    <mxGraphModel dx="569" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6p1vlQ0GJCw1Co-W3nL5-7" target="6p1vlQ0GJCw1Co-W3nL5-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6p1vlQ0GJCw1Co-W3nL5-7" value="CSS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="6p1vlQ0GJCw1Co-W3nL5-7" value="CSS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="470" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-8" value="Semantic HTML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -45,7 +45,7 @@
             <mxPoint x="520" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWRz1BCfIXu3STuvE5zI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6p1vlQ0GJCw1Co-W3nL5-13" target="wWRz1BCfIXu3STuvE5zI-1">
+        <mxCell id="wWRz1BCfIXu3STuvE5zI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6p1vlQ0GJCw1Co-W3nL5-13" target="wWRz1BCfIXu3STuvE5zI-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-13" value="JavaScript" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -98,8 +98,8 @@
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-25" value="General Skills" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="410" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6p1vlQ0GJCw1Co-W3nL5-26" value="HTTP/HTTPS&lt;br&gt;Bash basics&lt;br&gt;Algorithms&lt;br&gt;Design Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="390" y="440" width="120" height="50" as="geometry" />
+        <mxCell id="6p1vlQ0GJCw1Co-W3nL5-26" value="HTTP/HTTPS&lt;br&gt;Bash basics&lt;br&gt;Algorithms&lt;br&gt;Design Patterns&lt;br&gt;Local, Session &amp;amp; Cookies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="460" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6p1vlQ0GJCw1Co-W3nL5-28" target="6p1vlQ0GJCw1Co-W3nL5-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -173,10 +173,10 @@
         <mxCell id="9mveYApbmtlLo5inXnCP-3" value="Unit Tests w/ Jest&lt;br&gt;Logic Exercises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="260" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wWRz1BCfIXu3STuvE5zI-1" value="Async/Sync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWRz1BCfIXu3STuvE5zI-1" value="Async/Sync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="224" width="110" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="wWRz1BCfIXu3STuvE5zI-2" value="&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;" vertex="1" parent="wWRz1BCfIXu3STuvE5zI-1">
+        <mxCell id="wWRz1BCfIXu3STuvE5zI-2" value="&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;" parent="wWRz1BCfIXu3STuvE5zI-1" vertex="1">
           <mxGeometry x="55" y="12" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
