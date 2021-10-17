@@ -7,6 +7,7 @@ const createPokemonGridItem = (pokemon, count) => {
 	pokemonDiv.className = 'pokemon-name-image';
 	const pokemonImage = document.createElement('img');
 	pokemonImage.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${count}.png`;
+	pokemonImage.alt = `Picture of ${pokemon.name} `;
 	const pokemonName = document.createElement('p');
 	pokemonName.textContent = `${pokemon.name}`;
 	pokemonName.id = 'pokemon-name';
@@ -63,13 +64,94 @@ function filterTest(filter) {
 		let pokemonDiv = document.getElementById(
 			`pokemon-name-image-${pokemon.name}`
 		);
-		if (pokemon.name.indexOf(filter) > -1) {
+		if (filter === '') {
 			pokemonDiv.style.display = 'block';
-			console.log(pokemon.name);
-		} else if (filter === '') {
+		} else if (pokemon.name.indexOf(filter) > -1) {
 			pokemonDiv.style.display = 'block';
 		} else {
 			pokemonDiv.style.display = 'none';
 		}
 	});
 }
+
+//add Pokémon
+function addPoke(newPoke) {
+	const pokemonGridItem = document.getElementById('pokemon-grid-item');
+	var newPoke = prompt(
+		'Great job on catching a new Pokémon! Type the new Pokémon Name'
+	).toLowerCase();
+	axios
+		.get(`https://pokeapi.co/api/v2/pokemon/${newPoke}`)
+		.then(response => {
+			newPokemonName = response.data['name'];
+			newPokemonId = response.data['id'];
+			pokemon = {
+				id: newPokemonId,
+				name: newPokemonName,
+				url: `https://pokeapi.co/api/v2/pokemon/${newPokemonId}/`
+			};
+			if (checkIfPokeIsOnList(pokemon) == false) {
+				pokemonGridItem.appendChild(
+					createPokemonGridItem(pokemon, newPokemonId)
+				);
+				alert(newPokemonName + ' added to list.');
+			} else if (checkIfPokeIsOnList(pokemon) == true) {
+				alert(newPokemonName + ' is already on the list.');
+			}
+		})
+		.catch(err => {
+			alert('Pokémon not found, please try again');
+			console.log('Error: ', err);
+		});
+}
+//remove Pokemon
+function removePoke(pokeToRemove) {
+	var pokeToRemove = prompt(
+		'Type the name of the Pokémon you want to remove.'
+	).toLowerCase();
+	const pokemonItem = document.getElementById(
+		`pokemon-name-image-${pokeToRemove}`
+	);
+	axios
+		.get(`https://pokeapi.co/api/v2/pokemon/${pokeToRemove}`)
+		.then(response => {
+			pokemonName = response.data['name'];
+			pokemonId = response.data['id'];
+			pokemon = {
+				id: pokemonId,
+				name: pokemonName,
+				url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`
+			};
+			if (checkIfPokeIsOnList(pokemon) == true) {
+				removePokeFromArray(pokemon);
+				pokemonItem.remove();
+				alert(pokemonName + ' removed from list.');
+			} else if (checkIfPokeIsOnList(pokemon) == false) {
+				alert(pokemonName + ' was not found at list. ');
+			}
+		})
+		.catch(err => {
+			alert('Pokémon not found, please try again');
+			console.log('Error: ', err);
+		});
+}
+//check if pokemon exists on array
+const checkIfPokeIsOnList = pokemon => {
+	pokeName = pokemon.name;
+	var answer = '';
+	var find = pokemonArray.find(elem => elem.name === pokeName);
+	if (find != undefined) {
+		answer = true;
+	} else {
+		answer = false;
+	}
+	return answer;
+};
+//removes value from array
+const removePokeFromArray = pokemon => {
+	pokeName = pokemon.name;
+	const index = pokemonArray.findIndex(p => p.name == pokeName);
+	pokemonArray.splice(index, 1);
+	console.log(pokemonArray);
+	return pokemonArray;
+};
