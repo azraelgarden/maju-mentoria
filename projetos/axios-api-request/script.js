@@ -140,7 +140,11 @@ const checkIfPokeIsOnList = pokemon => {
 	pokeName = pokemon.name;
 	var answer = '';
 	var find = pokemonArray.find(elem => elem.name === pokeName);
-	if (find != undefined) {
+if (find) {
+    return true;
+} else {
+    return false;
+}	
 		answer = true;
 	} else {
 		answer = false;
