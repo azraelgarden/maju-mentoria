@@ -1,4 +1,5 @@
 //Pokemon api call and usage
+
 let pokemonArray = [];
 let pkmn;
 const createPokemonGridItem = (pokemon, count) => {
@@ -32,7 +33,9 @@ const appendToDOM = pokemons => {
 		document.createElement('div')
 	);
 	pokemonGridItem.id = 'pokemon-grid-item';
+
 	//iterate over all pokemons
+
 	let count = 0;
 	pokemons.map(pokemon => {
 		count += 1;
@@ -52,7 +55,6 @@ const fetchPokemons = () => {
 
 fetchPokemons();
 
-// filter
 function filter() {
 	var input, filter;
 	input = document.getElementById('pokemon-search');
@@ -74,7 +76,26 @@ function filterTest(filter) {
 	});
 }
 
-//add Pokémon
+//add and remove pokemons from list
+
+const checkIfPokeIsOnList = pokemon => {
+	pokeName = pokemon.name;
+	var answer = '';
+	var find = pokemonArray.find(elem => elem.name === pokeName);
+	if (find) {
+		return true;
+	} else {
+		return false;
+	}
+};
+
+const removePokeFromArray = pokemon => {
+	pokeName = pokemon.name;
+	const index = pokemonArray.findIndex(p => p.name == pokeName);
+	pokemonArray.splice(index, 1);
+	return pokemonArray;
+};
+
 function addPoke(newPoke) {
 	const pokemonGridItem = document.getElementById('pokemon-grid-item');
 	var newPoke = prompt(
@@ -104,7 +125,7 @@ function addPoke(newPoke) {
 			console.log('Error: ', err);
 		});
 }
-//remove Pokemon
+
 function removePoke(pokeToRemove) {
 	var pokeToRemove = prompt(
 		'Type the name of the Pokémon you want to remove.'
@@ -135,27 +156,3 @@ function removePoke(pokeToRemove) {
 			console.log('Error: ', err);
 		});
 }
-//check if pokemon exists on array
-const checkIfPokeIsOnList = pokemon => {
-	pokeName = pokemon.name;
-	var answer = '';
-	var find = pokemonArray.find(elem => elem.name === pokeName);
-if (find) {
-    return true;
-} else {
-    return false;
-}	
-		answer = true;
-	} else {
-		answer = false;
-	}
-	return answer;
-};
-//removes value from array
-const removePokeFromArray = pokemon => {
-	pokeName = pokemon.name;
-	const index = pokemonArray.findIndex(p => p.name == pokeName);
-	pokemonArray.splice(index, 1);
-	console.log(pokemonArray);
-	return pokemonArray;
-};

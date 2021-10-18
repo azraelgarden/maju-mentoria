@@ -9,11 +9,13 @@ body {
 	vertical-align: baseline;
 	background-color: rgb(230, 225, 219);
 }
+
 header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 button {
 	padding: 10px;
 	margin-top: 10px;
@@ -22,37 +24,46 @@ button {
 	color: white;
 	font-weight: 700;
 }
+
 .action-buttons-add {
 	border-color: rgb(118, 195, 118);
 	background-color: rgb(118, 195, 118);
 }
+
 .action-buttons-add:hover {
 	border-color: rgb(83, 216, 83);
 	background-color: rgb(83, 216, 83);
 }
+
 .action-buttons-remove {
 	border-color: rgb(228, 86, 86);
 	background-color: rgb(228, 86, 86);
 }
+
 .action-buttons-remove:hover {
 	border-color: rgb(241, 61, 61);
 	background-color: rgb(241, 61, 61);
 }
+
 input {
 	padding: 10px;
 }
+
 p {
 	font-size: 20px;
 	color: black;
 	text-transform: capitalize;
 }
+
 img {
 	width: 200px;
 }
+
 .title {
 	width: 300px;
 	margin: 10px;
 }
+
 input {
 	width: 600px;
 	padding: 15px;
@@ -65,6 +76,7 @@ input {
 	max-width: 1090px;
 	margin: 0 auto;
 }
+
 #pokemon-grid-item {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -82,6 +94,7 @@ input {
 	border: solid black;
 	border-style: double;
 }
+
 .pokemon-name-image:hover {
 	transform: scaleY(1.05);
 }
@@ -89,18 +102,22 @@ input {
 .pokemon-name {
 	font-weight: bold;
 }
+
 .paginate {
 	display: flex;
 }
+
 .paginate a {
 	background: #e2e2e2;
 	padding: 8px 15px;
 	margin: 2px;
 	text-decoration: none;
 }
+
 .paginate a.current {
 	background: #d5e6ff;
 }
+
 .paginate a:hover {
 	cursor: pointer;
 	background: #6194e0;
