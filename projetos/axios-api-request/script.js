@@ -122,7 +122,7 @@ function removePoke(pokeToRemove) {
 				name: pokemonName,
 				url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`
 			};
-			if (checkIfPokeIsOnList(pokemon) == true) {
+			if (checkIfPokeIsOnList(pokemon)) {
 				removePokeFromArray(pokemon);
 				pokemonItem.remove();
 				alert(pokemonName + ' removed from list.');
