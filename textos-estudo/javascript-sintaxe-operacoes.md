@@ -68,7 +68,7 @@ constituído de uma condição (expressão true ou false), seguido de duas expre
 Outra forma de trabalhar com condicionais em JS, é utilizando o switch, que avalia uma expressão combinando o valor para uma cláusula case, e executa as instruções associadas 
 a esse case. Esse tipo de condicional é interessante para ser usado em funções em que teríamos muitos if/else.
 
-Não foi fornecido texto alternativo para esta imagem![image](https://user-images.githubusercontent.com/65983895/138309192-731902bf-6872-4bd0-abea-566b6878b9be.png)
+![image](https://user-images.githubusercontent.com/65983895/138309192-731902bf-6872-4bd0-abea-566b6878b9be.png)
 
 [Exemplo de Swith do MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch)
 
