@@ -61,6 +61,7 @@ function filter() {
 	filter = input.value.toLowerCase();
 	filterTest(filter);
 }
+
 function filterTest(filter) {
 	pokemonArray.map(pokemon => {
 		let pokemonDiv = document.getElementById(
