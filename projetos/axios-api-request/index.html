@@ -3,18 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo a utilizar APIs com Axios</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <div>
-        <ul></ul>
+    <header>
+        <div class="action-buttons">
+            <button class="action-buttons-add" onclick="addPoke()">Add to list</button>
+            <button class="action-buttons-remove" onclick="removePoke()">Remove from list</button>
+        </div>
+        <img class="title"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" />
+        <input id="pokemon-search" type="text" onkeyup="filter()" placeholder="Search for names.."
+            title="Type in a name">
+    </header>
+    <br>
+    <div id="pokemon-grid-container">
     </div>
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
