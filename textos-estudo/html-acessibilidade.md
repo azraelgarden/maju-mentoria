@@ -41,3 +41,5 @@ E por fim, algumas outras dicas importantes são:
 -Teste sua página sem CSS e veja se as estruturas fazem sentido;
   
 -Se possível, disponibilize um “modo noturno” do site.
+  
+Para ver o conteúdo no Linkedin, [clique aqui](https://www.linkedin.com/pulse/como-tornar-sua-p%C3%A1gina-mais-acess%C3%ADvel-refor%C3%A7ando-bases-lobo-/).
