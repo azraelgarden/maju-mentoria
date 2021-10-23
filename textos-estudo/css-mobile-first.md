@@ -1,3 +1,5 @@
+### Mobile First: o que é e quais as vantagens (Reforçando as bases parte 2 - CSS)
+
 No último artigo publicado sobre CSS comentei sobre Media Queries e que sua melhor aplicação seria com o conceito de Mobile First (ou mobile primeiro, em português), 
 isso porque com a diversidade de dispositivos e tamanhos de tela, ajustar o site para cada modelo seria extremamente trabalhoso, e a solução para esse problema é trabalhar 
 a responsividade do site. Aí entra o conceito de Mobile First, que se refere a qualquer projeto web que prioriza a experiência em dispositivos mobile para abordar 
@@ -15,4 +17,4 @@ E aqui encerramos nosso pilar de CSS na jornada de reforçar a base, entendemos 
 se relaciona com o conceito de Mobile First, que se pauta em desenvolver componentes e páginas primeiro para o mobile, e depois para o desktop. Nossa próxima etapa é 
 reforçar os conhecimentos de Javascript!
 
-Para ver a publicação no Linkedin: https://www.linkedin.com/pulse/mobile-first-o-que-%C3%A9-e-quais-vantagens-refor%C3%A7ando-bases-lobo-
+Para ver a publicação no Linkedin, [clique aqui](https://www.linkedin.com/pulse/mobile-first-o-que-%C3%A9-e-quais-vantagens-refor%C3%A7ando-bases-lobo-/).
