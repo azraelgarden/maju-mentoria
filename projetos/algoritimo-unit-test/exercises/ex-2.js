@@ -9,15 +9,17 @@ function calculateD(a, b, c) {
 		let s = Math.pow(b + c, 2);
 		let d = (r + s) / 2;
 		console.log(`O valor de D é ${d}.`);
+		return d;
 	} else {
-		console.log('Os valores precisam ser números inteiros e positivos.');
+		console.log('Por favor, insira números inteiros e positivos.');
+		return 'Por favor, insira números inteiros e positivos.';
 	}
 }
 
-calculateD(2, 5, 4);
+calculateD(2, 4, 4);
 
 function isIntegerAndPositive(x) {
-	condition = '';
+	let condition = '';
 	if (
 		Number.isInteger(x) == false ||
 		Math.sign(x) == -1 ||
@@ -29,3 +31,5 @@ function isIntegerAndPositive(x) {
 	}
 	return condition;
 }
+
+module.exports = { calculateD, isIntegerAndPositive };
