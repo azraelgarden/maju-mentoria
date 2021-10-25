@@ -19,4 +19,4 @@ A principal diferença quando falamos em classes e prototype é a  [sintaxe](htt
 utilizássemos prototype. O que é importante como programador, é entender como funcionam as cadeias de protótipos em JavaScript, e como isso é o que está por trás das classes, 
 dessa forma, saberemos utilizar as heranças de forma mais inteligente. 
 
-Para ver o conteúdo no Linkedin, clique aqui. (ainda não publicado)
+Para ver o conteúdo no Linkedin, [clique aqui](https://www.linkedin.com/pulse/prototyping-e-classes-qual-rela%C3%A7%C3%A3o-entre-os-dois-refor%C3%A7ando-lobo-/). 
