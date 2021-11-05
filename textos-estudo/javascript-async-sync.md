@@ -73,4 +73,4 @@ Agora, voltando a questão de funções síncronas e assíncronas, como vimos pe
 executar a função, enquanto as síncronas servem quando precisamos apenas de um resultado direto que não depende de outro processo ou serviço. Como programadores, nosso esforço 
 é fazer as abstrações corretamente e entender que funções possuem dependências, e que funções podem acontecer de maneira individual. 
 
-Para acessar o conteúdo no Linkedin, clique aqui. (aguardando revisão)
+Para acessar o conteúdo no Linkedin, [clique aqui](https://www.linkedin.com/pulse/prototyping-e-classes-qual-rela%C3%A7%C3%A3o-entre-os-dois-refor%C3%A7ando-lobo-/).
