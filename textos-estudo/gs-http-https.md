@@ -1,6 +1,7 @@
 ### Protocolos HTTP e HTTPS, o que você precisa saber.  (Reforçando as bases parte 4 - General Skills)
 
-Você já deve ter se deparado com o HTTP ou HTTPS no início de quase todas as URLs que acessou na vida, certo? Bom, nós vamos falar sobre eles. O HTTP (Hypertext Transfer Protocol 
+Finalizamos JavaScript! E agora entramos nos temas de General Skills, e para começar mais uma etapa do reforço de bases, vamos falar sobre algo que você já deve ter ouvido falar.
+Sabe aquele HTTP ou HTTPS que você viu no início de todas as URLs que acessou na vida? Bom, nós vamos falar sobre eles. O HTTP (Hypertext Transfer Protocol 
 ou Protocolo de Transferência de Hipertexto em português) é um protocolo que define como será a comunicação entre um navegador e um servidor web (como o World Wide Web), e é um 
 dos principais responsáveis por fazer com que as pessoas acessem os sites disponíveis na internet.
 
