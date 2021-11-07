@@ -14,7 +14,7 @@ Abaixo, você encontra o roadmap que está sendo usado como referência de estud
 -Eloquent JS: A Modern Introduction to Programming - Marijn Haverbeke
 
 <h3> Roadmap </h3>
-<img src= "https://user-images.githubusercontent.com/65983895/134061890-f77f027c-7db1-45bc-bac0-aab1104355ce.png"/>
+<img src= "https://user-images.githubusercontent.com/65983895/140631134-6fb15287-5ba9-4987-94f5-3fbaa363a2e0.png"/>
 
 
 
