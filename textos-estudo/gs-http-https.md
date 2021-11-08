@@ -12,7 +12,7 @@ Chamamos de solicitação (request) a mensagem enviada pelo cliente, e de respos
 são processadas e interpretadas pelos navegadores e programas, com ajuda dos seus servidores.
 
 Ok, mas e o HTTPS? Apesar do HTTP ter permitido a comunicação, ele não protegia o cliente de sites mal-intencionados que interceptam dados. Por conta desse tipo de site, o HTTP
-deixou de ser seguro, então criaram o HTTPS  (Hyper Text Transfer Protocol Secure) que funciona da mesma maneira que seu antecessor, mas com uma camada de segurança na transmissão
+deixou de ser seguro, então criaram o HTTPS (Hyper Text Transfer Protocol Secure) que funciona da mesma maneira que seu antecessor, mas com uma camada de segurança na transmissão
 de dados.
 
 No HTTPS, além dos sites precisarem de um certificado digital, que só é concedido aos sites que tiveram sua autenticidade verificada, as informações são criptografadas para 
