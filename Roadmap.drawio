@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T14:14:10.069Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lbBoAKq5hBG6wh2j_bPB" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T14:17:26.128Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HpxhOnDBXRR-PXEjs1zr" version="15.7.3" type="github">
   <diagram id="agUBH981tSHvttuCAfrt" name="Page-1">
-    <mxGraphModel dx="1468" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="861" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,7 +99,7 @@
           <mxGeometry x="230" y="110" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6p1vlQ0GJCw1Co-W3nL5-38" value="Prettier&lt;br&gt;EsLint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="520" y="345" width="50" height="30" as="geometry" />
+          <mxGeometry x="530" y="345.5" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hISglGd7XBu-Tsz0KGXN-3" value="HTTP/HTTPS&lt;br&gt;Commitzen/Commitlint&lt;br&gt;Local, Session &amp;amp; Cookies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="340" width="180" height="41" as="geometry" />
@@ -313,7 +313,7 @@
           <mxGeometry x="560" y="940" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_Mu3jGa9Z7ArrBiEgI-9-41" value="Flutter&lt;br&gt;Electron&lt;br&gt;React Native" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="965" width="152" height="30" as="geometry" />
+          <mxGeometry x="668" y="952.5" width="152" height="55" as="geometry" />
         </mxCell>
         <mxCell id="_Mu3jGa9Z7ArrBiEgI-9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Mu3jGa9Z7ArrBiEgI-9-43" target="_Mu3jGa9Z7ArrBiEgI-9-44">
           <mxGeometry relative="1" as="geometry" />
