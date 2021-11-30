@@ -12,10 +12,3 @@ Abaixo, você encontra o roadmap que está sendo usado como referência de estud
 - Clean Architecture: A Craftsman's Guide to Software Structure - Robert Cecil Martin
 
 -Eloquent JS: A Modern Introduction to Programming - Marijn Haverbeke
-
-<h3> Roadmap </h3>
-<img src= "https://user-images.githubusercontent.com/65983895/140631134-6fb15287-5ba9-4987-94f5-3fbaa363a2e0.png"/>
-
-
-
-
