@@ -2,7 +2,7 @@
 
 
 No último texto falamos sobre os protocolos HTTP e HTTPS, e falamos sobre o tráfego de dados entre cliente e servidor. Com isso em mente, vamos falar sobre as formas de armazenar 
-informações no browser do cliente. Existem três principais formas de armazenar dados, o LocalStorage, SessionStorage e os Cookies. 
+informações no browser do cliente. Nesse post vamos falar de três formas de armazenar dados, o LocalStorage, SessionStorage e os Cookies. 
 
 O LocalStorage é uma forma de salvar dados no computador do cliente. Ele permite que salvemos pares de chaves e valores no web browser sem uma data de expiração. Essa forma de 
 armazenamento só pode ser acessada via JavaScript e HTML5, mas é importante saber que o usuário pode limpar os dados/cache do browser se quiser. O limite de armazenamento de um 
