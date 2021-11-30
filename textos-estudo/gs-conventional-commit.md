@@ -1,7 +1,7 @@
 ### Padronização de Commits, como fazer? (Reforçando as bases parte 4 - General Skills)
 
 
-O Git é uma parte importante no dia a dia de um programador, com ele versionamos nossos códigos e temos histórico de alterações, mas para que tenhamos sempre clareza do que foi 
+O Git é uma parte importante no dia a dia de um programador, com ele versionamos nossos códigos e temos um histórico de alterações, mas para que tenhamos sempre clareza do que foi 
 alterado em cada etapa, ao criar um commit, precisamos que a mensagem seja clara, objetiva e descritiva, isso para que seja simples de entender o que está diferente, e até 
 facilitar o processo de encontrar bugs no projeto.
 
