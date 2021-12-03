@@ -21,3 +21,5 @@ function swimmersCategory(age) {
 	}
 }
 swimmersCategory(6);
+
+module.exports = { swimmersCategory };

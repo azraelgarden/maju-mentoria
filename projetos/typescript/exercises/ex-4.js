@@ -44,4 +44,6 @@ function studentGrade(grade1, grade2, grade3) {
 		return 'not-number';
 	}
 }
-studentGrade(3, 7, 4);
+studentGrade(10, 9, 7.5);
+
+module.exports = { studentGrade };

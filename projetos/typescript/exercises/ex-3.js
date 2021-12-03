@@ -6,7 +6,8 @@ function biggerNumber(a, b, c) {
 		return result;
 	} else {
 		console.log('Por favor, insira somente números.');
-		return 'Por favor, insira somente números.';
+		return 'not-number';
 	}
 }
 biggerNumber(10, 20, 30);
+module.exports = { biggerNumber };
