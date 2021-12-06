@@ -18,7 +18,7 @@ function isIntegerAndPositive(x:number) {
             return 'not-integer, negative'
 
         }
-    }else{
+    } else {
         return 'not-number';
     }
 }
