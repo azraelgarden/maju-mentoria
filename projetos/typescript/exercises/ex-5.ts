@@ -22,4 +22,5 @@ function isIntegerAndPositive(x:number) {
         return 'not-number';
     }
 }
+
 isIntegerAndPositive(-5)
