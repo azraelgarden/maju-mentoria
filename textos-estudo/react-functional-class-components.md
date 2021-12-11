@@ -1,5 +1,5 @@
 ## Functional Components e Class Components: diferenças e quando usar
-Continuando nosso reforço de bases de programação, vamos nos aprofundar no universo de Javascript e falar sobre o React, framework de JS que tem sido muito utilizado por grandes 
+Continuando nosso reforço de bases de programação, vamos nos aprofundar no universo de Javascript e falar sobre o React, uma biblioteca de JS que tem sido muito utilizado por grandes 
 empresas. Vamos começar a entender como funcionam os componentes no React. Existem duas formas de definir um componente, podemos fazer da forma funcional, ou por meio de uma classe
 ES6.
 
