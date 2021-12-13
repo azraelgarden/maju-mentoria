@@ -16,9 +16,9 @@ HTML.
 
 [Exemplo de class component da documentação do React](https://pt-br.reactjs.org/docs/components-and-props.html)
 
-Ambos os exemplos são equivalentes do ponto de vista do React, e possuem o mesmo resultado, mas no dia a dia como programadores, precisamos entender quando usar um Class Component 
-ou um Functional Component. A lógica é simples, os Class Components nos ajudam a compor a parte lógica de códigos já que podem gerenciar estados e manipular eventos, enquanto os 
-Functional Components  devem ser usados sempre que possível por sua simplicidade (o que ajuda na velocidade da renderização), quando queremos apenas exibir alguma UI.
+Ambos os exemplos são equivalentes do ponto de vista do React, e possuem o mesmo resultado, mas no dia a dia como programadores, precisamos entender quando usar um Class Component ou um Functional Component. Até a atualização 16.7.0 do React, as lógicas mais complexas de funções eram feitas usando os Class Components já que eles nos permitem trabalhar com estados e eventos, enquanto os Functional Components serviam quando precisávamos apenas para exibir alguma UI. 
+
+Com a atualização temos os Hooks (trataremos deles com detalhes mais pra frente), e eles nos permitem fazer com Functional Components o que antes apenas um Class Component conseguia fazer e com menos verbosidade, tornando nosso código mais legível. Ou seja, se você tiver a possibilidade de usar uma versão mais atual do React, procure sempre usar Functional Components, e quando precisar trabalhar com versões mais antigas, Class Components para lógicas e Functional para exibições.
 
 E por fim, um ponto importante é que embora ambos tenham funções diferentes, uma coisa é comum, os props são somente leitura, e não podem ser modificados, eles precisam ser funções
 puras, o que podemos alterar são as saídas a partir dos estados, que são nosso próximo tema. 
