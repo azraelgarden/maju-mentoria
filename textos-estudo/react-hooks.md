@@ -3,7 +3,7 @@ Aprofundando um pouco mais no React,  vamos falar sobre Hooks, funções que nos
 
 Os Hooks surgiram na versão 16.7.0 do React para fornecer formas de trabalhar com estados e API’s sem a necessidade de usar uma classe (Class Component). Ele basicamente trouxe para os componentes funcionais a possibilidade de usar estados locais, efeitos e contexto, tornando o código mais legível, objetivo além de  facilitar o compartilhamento de lógicas entre componentes. 
 
-Alguns dos Hooks mais utilizados são o useState, useEffetc, useContext, useCallback, useMemo e useRef. Além deles, também podemos fazer nossos próprios Hooks. Nesse texto, vamos abordar com mais profundidade o useState, useEffect, useMemo e useRef.
+Alguns dos Hooks mais utilizados são o useState, useEffect, useContext, useCallback, useMemo e useRef. Além deles, também podemos fazer nossos próprios Hooks. Nesse texto, vamos abordar com mais profundidade o useState, useEffect, useMemo e useRef.
 
 **useState()**
 
