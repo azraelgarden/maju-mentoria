@@ -27,7 +27,7 @@ E por fim, podemos salvar essa estilização em uma variável para podermos expo
 
 ``` 
 import styled from "styled-components";
-const MeuBotao = styled.button`
+const exampleButton = styled.button`
     background: #0099FF;
     border: 2px solid #0099FF;
     border-radius: 3px;
