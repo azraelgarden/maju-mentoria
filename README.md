@@ -7,6 +7,5 @@ Para fixar o conteúdo, a Maria Julia produzirá textos e projetos que podem ser
 <h2> Referências </h2>
 
 <h3> Livros </h3>
-- Clean Architecture: A Craftsman's Guide to Software Structure - Robert Cecil Martin
-
-- Eloquent JS: A Modern Introduction to Programming - Marijn Haverbeke
+- Clean Architecture: A Craftsman's Guide to Software Structure | Robert Cecil Martin <br/>
+- Eloquent JS: A Modern Introduction to Programming | Marijn Haverbeke
