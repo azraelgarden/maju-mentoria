@@ -17,4 +17,14 @@ E depois, basta importar o arquivo routes.js dentro do nosso arquivo app.js, par
 
 [Exemplo de arquivo app.js do DevMedia](https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901)
 
-Para saber mais sobre como utilizar o react-router-dom, acesse o [material do DevMedia](https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901).
+Agora, essa é a forma antiga de trabalhar com rotas. Hoje em dia,  utilizamos uma versão atualizada do react-router-dom, a V6. Começamos realizando a instalação dele no nosso projeto com o comando <code> npm install react-router-dom@6 </code>.
+
+Depois, precisamos importar o router-dom no arquivo desejado, no exemplo usaremos o app.js para criar nossa configuração de rotas e começar a trabalhar com os links. No exemplo, estamos importanto além da nossa lib outros dois componentes Expenses e Invoices, e o que vamos fazer é definir a rota deles. 
+
+![image](https://user-images.githubusercontent.com/65983895/149771916-cabe94e2-fb9c-43a3-8e25-4c8ecc9a107f.png)
+
+[Exemplo de configuração de rota da documentação oficial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+
+Como podemos ver, em termos de configuração as duas versões são semelhantes, o que muda é a forma como definimos nossas rotas, veja que no antigo passamos um component seguido de um path, e na v6 o componente <code> Route </code> recebe uma prop chamada <code> element </code> em que passamos um componente a ser renderizado. Além disso, o que na v5 seria o Switch, foi substituído por Routes. 
+
+Para entender mais diferenças entre as versões, leia o [conteúdo feito por Arunava Modak](https://dev.to/arunavamodak/react-router-v5-vs-v6-dp0) e para entender como instalar e utilizar ambas as versões, veja a [documentação oficial do React-Router-Dom](https://reactrouter.com/docs/en/v6).
