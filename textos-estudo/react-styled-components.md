@@ -36,6 +36,6 @@ const exampleButton = styled.button`
     margin: 1rem;
     padding: 1rem 1.5rem;
 `;
-export default MeuBotao;
+export default exampleButton;
 ``` 
 Para entender com mais profundidade como instalar e utilizar a biblioteca de Styled Components, acesse o [material de Matheus Castiglioni](https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/).
