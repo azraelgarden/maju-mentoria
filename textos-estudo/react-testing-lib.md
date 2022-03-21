@@ -18,4 +18,8 @@ Agora que temos nossa importação feita, e sabemos o que queremos testar, vamos
 
 [Exemplo de teste de Ricardo Pedroni](https://medium.com/reactbrasil/testes-eficientes-usando-react-testing-library-580abb64ef98)
 
-E pronto, temos um teste unitário de um componente! Para entender outras possibilidades do RTL acesse a [documentação oficial](https://testing-library.com/docs/).
+E pronto, temos um teste unitário de um componente passando! 
+
+![image](https://user-images.githubusercontent.com/65983895/159273157-3377f551-b755-4dec-9145-8d91b8b5cdb3.png)
+
+Para entender outras possibilidades do RTL acesse a [documentação oficial](https://testing-library.com/docs/).
