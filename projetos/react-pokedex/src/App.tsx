@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import { Outlet, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
+import React from "react";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { routes } from "./routes";
 
 function App() {
-	return (
-		<Routes>
-			<Route path="login" element={<Login />} />
-			<Route path="/" element={<Home />} />
-		</Routes>
-	);
+    return (
+        <Routes>
+            {routes.map((route, index) => (
+                <Route key={index} path={route.path} element={route.element} />
+            ))}
+        </Routes>
+    );
 }
 
 export default App;
